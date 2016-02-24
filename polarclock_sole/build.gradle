@@ -6,11 +6,13 @@ android {
 
     defaultConfig {
         applicationId "com.android.wallpaper"
+        minSdkVersion 7
     }
 
     sourceSets {
         main {
             java.srcDirs = ['../src']
+            java.excludes = ['com/android/wallpaper/*.java', 'com/android/wallpaper/walkaround/']
             resources.srcDirs = ['../src']
             aidl.srcDirs = ['../src']
             renderscript.srcDirs = ['../src']
