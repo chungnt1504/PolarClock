@@ -33,7 +33,6 @@ import android.content.res.XmlResourceParser;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.text.format.Time;
-import android.util.MathUtils;
 import android.util.Log;
 
 import java.util.HashMap;
