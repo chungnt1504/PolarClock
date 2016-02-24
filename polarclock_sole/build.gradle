@@ -6,6 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.android.wallpaper"
+        minSdkVersion 7
     }
 
     sourceSets {
