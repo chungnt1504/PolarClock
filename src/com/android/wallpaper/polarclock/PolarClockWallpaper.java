@@ -486,7 +486,7 @@ public class PolarClockWallpaper extends WallpaperService {
 
                     c.drawColor(mPalette.getBackgroundColor());
 
-                    c.translate(s + MathUtils.lerp(s, -s, mOffsetX), t);
+                    c.translate(s, t);
                     c.rotate(-90.0f);
                     if (height < width) {
                         c.scale(0.9f, 0.9f);
