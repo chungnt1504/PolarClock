@@ -42,8 +42,6 @@ import java.io.IOException;
 import org.xmlpull.v1.XmlPullParserException;
 import static org.xmlpull.v1.XmlPullParser.*;
 
-import com.android.wallpaper.polarclock.R;
-
 public class PolarClockWallpaper extends WallpaperService {
     private static final String LOG_TAG = "PolarClock";
     

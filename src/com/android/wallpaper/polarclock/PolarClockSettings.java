@@ -16,8 +16,6 @@
 
 package com.android.wallpaper.polarclock;
 
-import com.android.wallpaper.polarclock.R;
-
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
