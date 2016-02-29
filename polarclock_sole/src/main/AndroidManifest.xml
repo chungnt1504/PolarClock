@@ -19,26 +19,24 @@
 -->
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.wallpaper">
-
-    <original-package android:name="com.android.wallpaper" />
+    package="com.android.wallpaper.polarclock">
 
     <uses-feature android:name="android.software.live_wallpaper" />
 
     <application
-        android:label="@string/wallpapers"
+        android:label="@string/wallpaper_clock"
         android:icon="@drawable/ic_launcher_wallpaper">
 
         <activity
             android:label="@string/clock_settings"
-            android:name="com.android.wallpaper.polarclock.PolarClockSettings"
+            android:name=".PolarClockSettings"
             android:theme="@android:style/Theme"
             android:exported="true">
         </activity>
         
         <service
             android:label="@string/wallpaper_clock"
-            android:name="com.android.wallpaper.polarclock.PolarClockWallpaper"
+            android:name=".PolarClockWallpaper"
             android:permission="android.permission.BIND_WALLPAPER">
             <intent-filter>
                 <action android:name="android.service.wallpaper.WallpaperService" />
