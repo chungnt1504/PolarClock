@@ -347,6 +347,10 @@ public class PolarClockWallpaper extends WallpaperService {
             }
 
             mPalette = CyclingClockPalette.getFallback();
+
+            // if wallpaper always fixed in the center of Home screen,
+            // in order to improve performance, set off scrolled notification
+            this.setOffsetNotificationsEnabled(false);
         }
 
         @Override
