@@ -197,7 +197,7 @@ public class PolarClockWallpaper extends WallpaperService {
             float invCount = 1.0f / (float) COLORS_CACHE_COUNT;
             for (int i = 0; i < count; i++) {
                 float[] hsv = new float[3];
-                hsv[0] = i * invCount;
+                hsv[0] = i * invCount * 360;
                 hsv[1] = mSaturation;
                 hsv[2] = mBrightness;
                 colors[i] = Color.HSVToColor(hsv);
